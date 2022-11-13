@@ -5,7 +5,7 @@
     align-items: center;
     display: flex;
     height: 50px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif, monospace;
     z-index: 100;
 }
 
@@ -33,4 +33,31 @@
     font-size: 18px;
     font-weight: 300;
     cursor: pointer;
+}
+
+.navListItem.Home{
+    color: red
+}
+
+.navListItem.About{
+    color: orange
+}
+
+.navListItem.ContactUs{
+    color: rgb(130, 179, 34)
+}
+
+.navListItem.Write{
+    color: blue
+}
+
+.navListItem.LogOut{
+    color: rgb(226, 15, 226)
+}
+
+.topPfpImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
 }
