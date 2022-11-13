@@ -1,0 +1,7 @@
+.post{
+    width: 23%;
+    margin: 0px 25px 15px 25px;
+    display: flex;
+    font-family:'Courier New', Courier, monospace;
+    flex-direction: column;
+}
