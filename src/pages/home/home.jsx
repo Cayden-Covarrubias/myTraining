@@ -10,9 +10,10 @@ export default function Home() {
             <Header />
             <div className="home">
             <SideBar/>
-            
-            </div>
             <Posts/>
+            </div>
+            
+            
             
 
         </>
