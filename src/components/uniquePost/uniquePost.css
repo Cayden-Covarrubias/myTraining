@@ -1,0 +1,78 @@
+.uniquePost{
+    flex: 10;
+}
+
+.editPost{
+    font-size: 20px;
+    float: right;
+}
+
+.uniquePostInfo {
+    margin-bottom: 15px;
+    display: flex;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+    justify-content: space-between;
+}
+
+.uniquePostImage{
+    width: 100%;
+    border-radius: 20px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 50px;
+
+}
+
+.postIcon{
+    cursor: pointer;
+    margin-left: 15px;
+
+}
+
+.uniquePostTitle{
+    margin: 20px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+
+.uniquePostWrapper{
+    padding-right: 5%;
+    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.postIcon{
+    color: yellowgreen;
+}
+
+.uniquePostDescription{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: indigo;
+    line-height: 40px;
+}
+.uniquePostDescription::first-letter {
+    margin-left:80 px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.uniquePostButton{
+    width:100px;
+    border: none;
+    background-color: pink;
+    padding: 5px;
+}
+
+.uniquePostDescriptionInput{
+    border: none;
+    color: orange;
+    font-size: 18px;
+    line-height: 25px;
+}

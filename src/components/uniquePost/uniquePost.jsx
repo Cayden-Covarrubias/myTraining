@@ -18,7 +18,7 @@ export default function UniquePost() {
                             </div>
                         </h1>
 
-                        <img src="" alt="post image" className = "uniquePostImage" />
+                        <img src="/images/background.jpg" alt="post image" className = "uniquePostImage" />
 
                         <div className="uniquePostInfo">
                             <span className="uniquePostAuthor"> Author:
@@ -29,7 +29,7 @@ export default function UniquePost() {
                         </div>
 
                         <p className="uniquePostDescription">resgesgseggggggggggggs</p>
-                        
+
                     </div>
             </div>
         </>
