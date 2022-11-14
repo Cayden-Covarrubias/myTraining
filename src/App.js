@@ -12,12 +12,26 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 function App() {
   const currentUser = false;
-  console.log(currentUser)
+  console.log(currentUser);
   return (
-    <div className="App">
-      <NavBar/>
-      <WritePost/>
-    </div>
+    <Router>
+      <NavBar />
+      <Routes>
+        <Route exact path ="/" element={<Home />}>
+        </Route>
+        <Route path ="/posts" element={<Home />}>
+        </Route>
+        <Route exact path ="/login" element={currentUser ? <Home /> : <Login />}>
+        </Route>
+        <Route exact path ="/post/:id" element={<PostPage />}>
+        </Route>
+        <Route exact path ="/write" element={currentUser ? <WritePost /> : <WritePost />}>
+        </Route>
+        <Route exact path ="/settings" element={currentUser ? <Settings /> : <Settings />}>
+        </Route>
+      </Routes>
+    </Router>
+
   );
 }
 

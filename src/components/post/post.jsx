@@ -1,5 +1,5 @@
 import "./post.css"
-
+import { Link } from "react-router-dom"
 export default function Post(){
 
 return(
@@ -10,8 +10,11 @@ return(
                 <span className="postCat">cat 1 cat 2</span>
 
             </div>
+            <Link to={`/post/randomNum`} className="link">
             <span className="postTitle">title</span>
-            <hr />
+                
+            </Link> <hr />
+            
             <span className="postDate">today</span>
         </div>
         <p className="postSummary">Some words ........... some more words? </p>

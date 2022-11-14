@@ -1,4 +1,5 @@
 import "./createAccount.css"
+import { Link } from "react-router-dom"
 
 export default function CreateAccount(){
     return(
@@ -15,7 +16,9 @@ export default function CreateAccount(){
 
             </form>
             <button className="createAccountLoginButton">
-                    Login </button>
+                    <Link className="link" to="/login">
+                        Login 
+                    </Link></button>
         </div>
     )
 }
