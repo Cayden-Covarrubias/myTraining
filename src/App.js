@@ -4,11 +4,12 @@ import CreateAccount from './pages/createAccount/createAccount';
 import Home from './pages/home/home'
 import PostPage from './pages/postPage/postPage'
 import Login from './pages/login/login'
+import Settings from "./pages/settings/settings"
 function App() {
   return (
     <div className="App">
       <NavBar/>
-      <Login/>
+      <Settings/>
     </div>
   );
 }
