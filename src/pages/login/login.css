@@ -1,0 +1,61 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(grey green),;
+    background-size: cover;
+    height: calc(100vh-50px);
+
+}
+
+.loginTitle{
+    font-size: 75px;
+
+}
+
+.loginForm{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label {
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.loginInput {
+    padding: 10px;
+    background-color: ivory;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: pink;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.createAccountLoginButton{
+    background-color: palevioletred;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: grey;
+}
