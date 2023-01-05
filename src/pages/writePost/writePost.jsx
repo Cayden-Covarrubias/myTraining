@@ -1,5 +1,5 @@
 import "./writePost.css"
-
+import React, { Component }  from 'react';
 export default function WritePost(){
     return(
         <>

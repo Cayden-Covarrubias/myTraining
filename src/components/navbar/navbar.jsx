@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css"
 
 export default function NavBar(){
@@ -8,7 +9,10 @@ export default function NavBar(){
         <div className="topCenter">
         <ul className="topNavList">
             <li className="navListItem Home">
-                Home
+                <Link className="link" to="/">
+                    Home
+                </Link>
+                
             </li>
             <li className="navListItem About">
                 About
@@ -17,7 +21,10 @@ export default function NavBar(){
                 Contact Us
             </li>
             <li className="navListItem Write">
-            Write
+            <Link className="link" to="/write">
+                    Write
+                </Link>
+            
             </li>
             <li className="navListItem LogOut">
                 Log Out
@@ -25,9 +32,10 @@ export default function NavBar(){
         </ul>
         </div>
         <div className="topRight">
+            <Link className="link" to="/settings">
+              <img className="topPfpImg" src="/images/default_pfp.png"alt="/images/icons/default_pfp.png"></img>
+            </Link>
         
-        <img className="topPfpImg" src="/images/default_pfp.png"alt="/images/icons/default_pfp.png"></img>
-
         <ul className="topList">
             <li className="navListItem Logout">
                 Login

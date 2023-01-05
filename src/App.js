@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
-  const currentUser = false;
+  const currentUser = true;
   return (
     <Router>
     <div className="App">
@@ -27,15 +27,15 @@ function App() {
         </Route>
         <Route exact path="/post/:id" element={<PostPage />}>
         </Route>
-        <Route exact path="/" element={currentUser ? <WritePost /> : <Home />}>
+        <Route exact path="/write" element={currentUser ? <WritePost /> : <Home />}>
         </Route>
-        <Route exact path="/" element={currentUser ? <Settings /> : <Settings />}>
+        <Route exact path="/settings" element={currentUser ? <Settings /> : <Settings />}>
         </Route>
 
                      
         
       </Routes>
-      <CreateAccount/>
+      <Settings/>
     </div>
     </Router>
   );
