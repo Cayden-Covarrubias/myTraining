@@ -1,5 +1,6 @@
 import SideBar from "../../components/sidebar/sidebar"
 import "./settings.css"
+import React, { Component }  from 'react';
 export default function settings() {
     return (
         <>
