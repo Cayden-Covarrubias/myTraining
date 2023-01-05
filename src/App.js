@@ -27,15 +27,15 @@ function App() {
         </Route>
         <Route exact path="/post/:id" element={<PostPage />}>
         </Route>
-        <Route exact path="/" element={currentUser ? <WritePost /> : <WritePost />}>
+        <Route exact path="/" element={currentUser ? <WritePost /> : <Home />}>
         </Route>
         <Route exact path="/" element={currentUser ? <Settings /> : <Settings />}>
         </Route>
-        
+
                      
         
       </Routes>
-      <Home/>
+      <CreateAccount/>
     </div>
     </Router>
   );
